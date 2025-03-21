@@ -1,0 +1,37 @@
+/* coming-soon.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .coming-soon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .coming-soon h1 {
+    font-size: 3rem;
+    color: #333333;
+  }
+  
+  .coming-soon p {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .countdown {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 auto 20px auto;  /* Centra el logo y le da margen en la parte inferior */
+    max-width: 200px;  /* Limita el tamaño máximo del logo */
+    height: auto;  /* Mantiene la proporción del logo */
+  }
